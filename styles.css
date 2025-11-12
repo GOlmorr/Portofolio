@@ -180,7 +180,9 @@ body {
 /* About Section */
 .about {
     padding: 80px 0;
-    background-color: var(--bg-white);
+    background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), 
+                url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .section-title {
@@ -216,10 +218,10 @@ body {
 
 /* Skills Section */
 .skills {
-    /* background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%), 
-                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80') center/cover no-repeat;; */
     padding: 80px 0;
-    background-color: var(--bg-light);
+    background: linear-gradient(rgba(248, 250, 252, 0.95), rgba(248, 250, 252, 0.95)), 
+                url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .skills-category {
@@ -287,7 +289,9 @@ body {
 /* CV Section */
 .cv {
     padding: 80px 0;
-    background-color: var(--bg-white);
+    background: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)), 
+                url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .cv-section {
@@ -405,7 +409,9 @@ body {
 /* Projects Section */
 .projects {
     padding: 80px 0;
-    background-color: var(--bg-white);
+    background: linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), 
+                url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .projects-grid {
@@ -553,7 +559,9 @@ body {
 /* Contact Section */
 .contact {
     padding: 80px 0;
-    background-color: var(--bg-light);
+    background: linear-gradient(rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.92)), 
+                url('https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
 }
 
 .contact-subtitle {
@@ -612,7 +620,9 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--secondary-color);
+    background: linear-gradient(rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.95)), 
+                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80') center/cover no-repeat fixed;
+    position: relative;
     color: var(--bg-white);
     padding: 2rem 0;
 }
