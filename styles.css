@@ -769,10 +769,34 @@ i{
 
 .icon-text {
   display: flex;
-  align-items: center; /* vertikal sejajar */
-  gap: 8px; /* jarak antara ikon dan teks */
+  align-items: center; /* sejajarkan ikon, teks, dan tombol secara vertikal */
+  gap: 10px; /* jarak antar elemen */
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: fit-content;
 }
 
 .icon-text i {
-  color: black; /* opsional, ubah warna ikon */
+  font-size: 24px;
+}
+
+.icon-text h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.view-btn {
+  margin-left: auto; /* dorong tombol ke kanan */
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
 }
